@@ -101,11 +101,11 @@ while True:
         continue
 
     # --- GAME DRAW ---
-
     if game_state:
-        back = image.load("for diddy.jpg")
+        back = image.load("diddy.jpg")
         back = transform.scale(back, (800, 600))
         screen.blit(back, (0, 0))
+
         # Center circle
         draw.circle(screen, NEON_PINK, (WIDTH//2, HEIGHT//2), 80, 2)
 
